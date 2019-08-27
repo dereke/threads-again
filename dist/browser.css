@@ -23,8 +23,10 @@
 .About-text p {
   margin-bottom: 5px;
 }
-.About-image {
+.About-image_container {
   flex: 1;
+}
+.About-image {
   width: 100%;
 }
 @media (min-width: 756px) {
@@ -261,8 +263,10 @@
 .Thanks-text p {
   margin-bottom: 5px;
 }
-.Thanks-image {
+.Thanks-image_container {
   flex: 1;
+}
+.Thanks-image {
   width: 100%;
 }
 @media (min-width: 756px) {
