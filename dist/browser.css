@@ -19,6 +19,8 @@
   flex: 1;
   font-size: 22px;
   align-self: center;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .About-text p {
   margin-bottom: 5px;
@@ -62,6 +64,8 @@
 }
 .Grow-group {
   width: 50vw;
+  max-width: 300px;
+  margin-right: 10px;
 }
 .Grow-text {
   font-size: 30px;
@@ -127,10 +131,17 @@
   font-size: 15px;
   font-weight: normal;
 }
+.Header-launching {
+  color: #e50202;
+  font-size: 2em;
+  text-align: center;
+}
 @media (min-width: 756px) {
-  .Header-tagline,
   .Header-logo {
     font-size: 60px;
+  }
+  .Header-tagline {
+    font-size: 50px;
   }
   .Header-call {
     font-size: 32px;
@@ -156,9 +167,26 @@
 }
 .Subscribe-subline {
   font-size: 22px;
-  text-align: center;
+  text-align: left;
   color: #686868;
   margin-bottom: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.Subscribe-subline p {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-bottom: 1px dashed lightgray;
+}
+.Subscribe-subline p:last-of-type {
+  border-bottom: none;
+}
+.Subscribe-subline hr {
+  background-color: #d8d7d7;
+  height: 1px;
+  border: 0;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 .Subscribe-form {
   display: flex;
@@ -217,6 +245,11 @@
 .Subscribe-text {
   vertical-align: top;
   display: inline-block;
+}
+@media (min-width: 756px) {
+  .Subscribe-subline hr {
+    width: 50vw;
+  }
 }
 .Special {
   padding-top: 27px;
